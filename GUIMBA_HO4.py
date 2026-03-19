@@ -174,7 +174,7 @@ First_Label.grid(column=0,row=1,padx=20)
 Last_Label.grid(column=1,row=1,padx=20)
 Initial_Label.grid(column=2,row=1,padx=20)
 Year_Label.grid(column=0,row=4,padx=20)
-Age_Label.grid(column=1,columnspan=2,row=3,padx=20)
+Age_Label.grid(column=1,columnspan=2,row=3,rowspan=2,padx=20)
 Gender_Label.grid(column=0,row=5,padx=20,pady=5)
 
 Gender_Radio1.grid(column=1,row=5,padx=20)

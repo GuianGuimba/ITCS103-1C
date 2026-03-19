@@ -24,10 +24,10 @@ def After_Submit():
     Another_Window.geometry("300x480")
     Another_Window.configure(bg="lightgreen")
 
-    img = tk.PhotoImage(file="logo2.png")
-    img = img.subsample(3,3) 
+    #img = tk.PhotoImage(file="logo2.png")
+    #img = img.subsample(3,3) 
 
-    image_label = tk.Label(Another_Window, image = img)
+    #image_label = tk.Label(Another_Window, image = img)
 
     gender = Choice.get()
     if gender == 1:
@@ -68,7 +68,7 @@ def After_Submit():
         gender2.configure(text="Gender: Female")
 
     Another_Window_Title.pack(pady=5)
-    image_label.pack(pady=5)
+    #image_label.pack(pady=5)
     Name.pack(pady=5,padx=10,anchor="w")
     Age2.pack(pady=5,padx=10,anchor="w")
     gender2.pack(pady=5,padx=10,anchor="w")
